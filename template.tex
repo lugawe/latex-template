@@ -22,6 +22,14 @@
 
 % ---
 
+\usepackage[automark, headsepline]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearscrheadfoot{}
+\ihead{\headmark}
+\ofoot{\upshape\pagemark}
+
+% ---
+
 \usepackage[table]{xcolor}
 \definecolor{xlink}{HTML}{0000EE}
 
@@ -60,12 +68,13 @@
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-sea takimata sanctus est Lorem ipsum dolor sit amet.
+vero eos et accusam\footnote{labore et dolore} et justo duo dolores et ea
+rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+voluptua. At vero\footnote{magna aliquyam} eos et accusam et justo duo dolores
+et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+dolor sit amet.
 
 \subsection{Ipsum}
 
